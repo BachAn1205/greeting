@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Mavengit '  // Đặt theo tên Maven bạn đã cài trong Jenkins (Manage Jenkins > Global Tool Configuration)
+        maven 'Maven'  // Đặt theo tên Maven bạn đã cài trong Jenkins (Manage Jenkins > Global Tool Configuration)
     }
 
     stages {
